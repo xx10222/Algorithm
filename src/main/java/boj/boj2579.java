@@ -19,7 +19,7 @@ public class boj2579 {
         dp[3] = Math.max(arr[1], arr[2]) + arr[3];
 
         for(int i=4;i<=n;i++) {
-            dp[i] = Math.max(dp[i-3]+dp[i-1], dp[i-2]) + arr[i];
+            dp[i] = Math.max(dp[i-3]+arr[i-1], dp[i-2]) + arr[i];
         }
 
         System.out.println(dp[n]);
