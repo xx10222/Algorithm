@@ -7,8 +7,8 @@ public class boj2579 {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
 
-        int[] dp = new int[n+1];
-        int[] arr = new int[n+1];
+        int[] dp = new int[301];
+        int[] arr = new int[301];
 
         for(int i=1;i<=n;i++) {
             arr[i] = scanner.nextInt();
