@@ -4,4 +4,4 @@ gradlew.bat
 settings.gradle
 gradle\
 !/src/main/java/11street/
-!/.idea
+!/.idea/
